@@ -1,0 +1,29 @@
+.leaderboard-page {
+    padding: 2rem 0;
+}
+
+.leaderboard-header {
+    margin-bottom: 3rem;
+}
+
+.leaderboard-icon {
+    margin-bottom: 1.5rem;
+    display: inline-flex;
+    padding: 1.5rem;
+    background-color: rgba(210, 153, 34, 0.1);
+    border-radius: 50%;
+    box-shadow: 0 0 40px rgba(210, 153, 34, 0.2);
+}
+
+.max-w-2xl {
+    max-width: 42rem;
+}
+
+.max-w-4xl {
+    max-width: 56rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}

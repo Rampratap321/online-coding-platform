@@ -1,0 +1,64 @@
+.problem-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.problem-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.problem-title {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.problem-card-body {
+    flex: 1;
+    margin-bottom: 1.5rem;
+}
+
+.problem-desc {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.problem-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--surface-border);
+    padding-top: 1rem;
+    margin-top: auto;
+}
+
+.problem-meta {
+    display: flex;
+    gap: 1rem;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.solve-btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.solve-btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}

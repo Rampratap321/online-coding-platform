@@ -1,0 +1,86 @@
+.navbar {
+    background-color: var(--surface-color);
+    border-bottom: 1px solid var(--surface-border);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.navbar-icon {
+    color: var(--primary-color);
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+    font-size: 0.95rem;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.admin-link {
+    color: var(--warning-color);
+}
+
+.admin-link:hover {
+    color: #e3b341;
+}
+
+.navbar-auth {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-left: 1px solid var(--surface-border);
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.user-greeting {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.navbar-user .btn {
+    display: flex;
+    gap: 0.4rem;
+}

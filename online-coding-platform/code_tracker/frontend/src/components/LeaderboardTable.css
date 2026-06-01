@@ -1,0 +1,43 @@
+.table-container {
+    padding: 0;
+    overflow: hidden;
+}
+
+.data-table th,
+.data-table td {
+    padding: 1rem 1.5rem;
+}
+
+.top-rank {
+    background-color: rgba(88, 166, 255, 0.05);
+}
+
+.rank-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.user-cell {
+    color: #fff;
+}
+
+.score-cell {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.text-warning-color {
+    color: var(--warning-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-4 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
